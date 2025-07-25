@@ -1,0 +1,16 @@
+<htm1>
+<head> <title> Details</title> 
+</head> 
+<body> 
+<form>
+your name is : <p id ="name"> </p> <br>
+your email is : <p id ="email"> </p> <br> 
+your address is : <p id ="addr"> </p> <br>
+<script>
+document.getElementById("name").innerHTML = localStorage.getItem("name") ; 
+document.getElementById("email").innerHTML = localStorage.getItem("email"); 
+document.getElementById("addr").innerHTML localstorage.getItem("addr"); 
+</script>
+</form>
+</body>
+</html>
